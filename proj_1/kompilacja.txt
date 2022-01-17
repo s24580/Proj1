@@ -1,0 +1,7 @@
+1. g++ -c proj.cpp -I SFML-2.5.1/include/
+
+2. g++ proj.o -o sfml-app -L SFML-2.5.1/lib -lsfml-graphics -lsfml-window -lsfml-system
+
+3. export LD_LIBRARY_PATH=SFML-2.5.1/lib && ./sfml-app
+
+potrzeba folder sfml-2.5.1 do proj_1
